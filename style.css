@@ -104,3 +104,9 @@ img {
 a {
     color: blue;
 }
+
+@media screen and (max-width: 900px) {
+  .content {
+    flex-direction: column;; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
