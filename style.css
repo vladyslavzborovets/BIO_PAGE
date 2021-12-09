@@ -1,0 +1,106 @@
+html {
+    background-image: url('https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?b=1&k=20&m=537331500&s=170667a&w=0&h=-OawbbTR9TwfewLYKlaU-_cn1m_dq1WLpBK1qubFhGI=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+
+}
+ header {
+     text-align: center;
+     font-size: 42px;
+     font-family: 'Fuzzy Bubbles', cursive;
+     font-weight: bold;
+     padding-bottom: 20px;
+     color: white;
+ }
+
+ .content {
+
+     display: flex;
+     flex-direction: row;
+     font-size: 24px;
+     font-family: 'Cairo', sans-serif;
+     height: 100%;
+     width: 100%;
+     animation-duration: 3s;
+     animation-name: slidein;
+     background-color: black;
+     color: white;
+     /* border: 2px solid white; */
+
+     /* position: relative;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-column-gap: 32px;
+     border: 1px solid transparent;
+     border-top: 1px solid #DADCE0;
+     border-bottom: 1px solid #DADCE0;
+     overflow: hidden;
+     height: 100%; */
+
+ }
+
+.paragraph2 {
+    display: flex;
+    flex: 1;
+    border: 2px solid white;
+    width: 100%;
+
+}
+
+.description {
+    flex: 1;
+    border: 2px solid white;
+
+}
+
+img {
+    border-radius: 60%;
+    box-shadow: 0 0 10px 5px;
+    height: 500px;
+    width: 500px;
+
+}
+
+.picture {
+    text-align: center;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.links {
+    text-align: center;
+}
+
+.github {
+    width: 60px;
+    height: 60px;
+
+}
+
+.linkedin {
+    width: 60px;
+    height: 60px;
+
+}
+
+.email {
+    width: 60px;
+    height: 60px;
+
+}
+
+a {
+    color: blue;
+}
